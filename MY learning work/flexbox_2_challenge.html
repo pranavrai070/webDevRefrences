@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box 2 Challenge</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0 20px 30px 0;
+            line-height: 1.4;
+        }
+        .flex-container{
+            display: flex;
+            width: 100%;
+            height:1500px;
+            border: 0px solid red;
+            flex-wrap:wrap;
+            border-radius: 7px;
+            align-content:center;
+        }
+
+        .flex-item{
+            width:24%;
+            /* height:550px; */
+            background-color: lightskyblue;
+            border: 0px solid rgba(7, 7, 7, 0.493);
+            text-align:left;
+            box-shadow: 10px 10px 5px #aaaaaa;
+            font-size:20px;
+            color: rgb(12, 11, 11);
+            line-height: 1.4;
+            border-radius: 7px;
+            margin:10px;
+            position: relative;
+            
+        }
+        .flex-item-i{
+            width:24%;
+            /* height:600px; */
+            background-color: lightskyblue;
+            border: 0px solid rgba(0, 0, 0, 0.479);
+            text-align:left;
+            box-shadow: 10px 10px 5px #aaaaaa;
+            font-size:20px;
+            color: rgb(12, 11, 11);
+            line-height: 1.4;
+            border-radius: 7px;
+            margin:10px;
+        }
+
+        #flex-item-1{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:555px;
+            top:45px;
+        }
+        #flex-item-2{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:600px;
+        }
+        #flex-item-3{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:545px;
+            top:50px;
+        }
+        #flex-item-4{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:556px;
+            top:45px;
+        }
+        #flex-item-5{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:595px;
+        }
+        #flex-item-6{
+            background-color: white;
+            margin: 50px;
+            padding: 0px;
+            height:550px;
+            top:50px;
+        }
+        .img1{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+            position: relative;
+            bottom:4px;
+        }
+        .img2{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+        }
+        .img3{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+        }
+        .img4{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+        }
+        .img5{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+        }
+        .img6{
+            width:100%;
+            height:200px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">
+            <img class="img1" src="images/green_image_1.jpeg" alt="">
+        </div>
+        <div class="flex-item-i" id="flex-item-2">
+            <img class="img2"src="images/green_image_2.jpeg" alt="">
+        </div>
+        <div class="flex-item" id="flex-item-3">
+            <img class="img3" src="images/Mountain.jpeg" alt="">
+        </div>
+        <div class="flex-item" id="flex-item-4">
+            <img class="img4"src="images/valley_image.jpeg" alt="">
+        </div>
+        <div class="flex-item-i" id="flex-item-5">
+            <img class="img5" src="images/falls.jpeg" alt="">
+        </div>
+        <div class="flex-item" id="flex-item-6">
+            <img class="img6" src="images/dream_house.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>

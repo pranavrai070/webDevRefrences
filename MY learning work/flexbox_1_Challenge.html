@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox 1 Challenge</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            padding: 0 20px 30px 0;
+            line-height: 1.4;
+        }
+        .flex-container{
+            display: flex;
+            width: 100%;
+            height:auto;
+            border:1px solid red;
+            flex-wrap: wrap;
+            align-content: center;
+            flex-direction: row;
+            border-radius: 7px;
+            align-content: flex-start;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .flex-item{
+            width:31%;
+            height:220px;
+            background-color: sandybrown;
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align:left;
+            font-size: 20px;
+            color: white;
+            font-weight:bold;
+        }
+
+        .flex-item-i{
+            width:22.9%;
+            height:38px;
+            background-color: sandybrown;
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align: left;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+        }
+
+        .flex-item-f{
+            width:18.07%;
+            height:38px;
+            background-color: sandybrown;
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align: left;
+            font-size:20px;
+            color:white;
+            font-weight:bold;
+        }
+
+        #flex-item-1,#flex-item-2,#flex-item-3{
+        background-color:sandybrown ;
+        padding: 5px;
+        margin: 4px;
+        }
+
+        #flex-item-4,#flex-item-5,#flex-item-6,#flex-item-7{
+            padding:5px;
+            margin:4px;
+        }
+
+        #flex-item-8,#flex-item-9,#flex-item-10,#flex-item-11,#flex-item-12{
+            padding:5px;
+            margin:4px;
+        }
+        .sub-item{
+            width:32%;
+            height:55px;
+            background-color: rgb(248, 246, 244);
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align: left;
+            font-size:20px;
+            color:sandybrown;
+            font-weight:bold;
+        }
+
+        .sub-item-i{
+            width:23.61%;
+            height:55px;
+            background-color: rgb(248, 246, 244);
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align: left;
+            font-size:20px;
+            color:sandybrown;
+            font-weight:bold;
+        }
+
+        .sub-item-f{
+            width:18.61%;
+            height:55px;
+            background-color: rgb(248, 246, 244);
+            border: 1px solid green;
+            border-radius: 7px;
+            text-align: left;
+            font-size:20px;
+            color:sandybrown;
+            font-weight:bold;
+        }
+
+        .sub-container{
+            display: flex;
+            width: 100%;
+            height:192px;
+            border:0px solid red;
+            flex-wrap: wrap;
+            align-content: center;
+            flex-direction: row;
+            border-radius: 7px;
+            align-content: flex-start;
+        }
+        #sub-item-1,#sub-item-2,#sub-item-3{
+            margin:2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1
+            <!-- <div class="sub-container">
+            <div class="sub-item" id="sub-item-1">1</div>
+            <div class="sub-item" id="sub-item-1">2</div>
+            <div class="sub-item" id="sub-item-1">3</div>
+            <div class="sub-item-i" id="sub-item-2">1</div>
+            <div class="sub-item-i" id="sub-item-2">2</div>
+            <div class="sub-item-i" id="sub-item-2">3</div>
+            <div class="sub-item-i" id="sub-item-2">4</div>
+            <div class="sub-item-f" id="sub-item-3">1</div>
+            <div class="sub-item-f" id="sub-item-3">2</div>
+            <div class="sub-item-f" id="sub-item-3">3</div>
+            <div class="sub-item-f" id="sub-item-3">4</div>
+            <div class="sub-item-f" id="sub-item-3">5</div>
+            </div> -->
+        </div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <!-- <div class="flex-item-i" id="flex-item-4">1</div>
+        <div class="flex-item-i" id="flex-item-5">2</div>
+        <div class="flex-item-i" id="flex-item-6">3</div>
+        <div class="flex-item-i" id="flex-item-7">4</div>
+        <div class="flex-item-f" id="flex-item-8">1</div>
+        <div class="flex-item-f" id="flex-item-9">2</div>
+        <div class="flex-item-f" id="flex-item-10">3</div>
+        <div class="flex-item-f" id="flex-item-11">4</div>
+        <div class="flex-item-f" id="flex-item-12">5</div> -->
+    </div>
+</body>
+</html>

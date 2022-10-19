@@ -1,0 +1,1 @@
+alert(prompt("Eneter Your Tweet here only").slice(0,140));

@@ -1,0 +1,40 @@
+main navbar- 
+1. home
+2. sports
+3.blog
+4.alumni
+5.developers
+6.contact us
+
+
+[sports-cricket,volleyball,basketball,football,badminton,table tennis,athletics,chess,carrom,lawn tennis,  
+
+sports section home page pe hi hoga jisme sare sports ke logo rahnge]
+
+[blog section dusre page me khulega]
+
+
+[alimni-nav bar-alumni jispe presently honge, contributions, home:
+1.support us krke ek link hoga jo page ke last me hi uska form hoga
+
+2.aise alumni jisne sports ki field me kuch kiya ho.
+
+3.contributors
+
+4.support us jiski point 1 me bat ki h.
+
+5. footer me alumni asscosiation ko credit de denge or bich me jo upr nav bar me links diya h vo aa jaega verically,right side me apne bare me]
+
+[union(sports council,publicity team)-in nav bar: all details about the team.]
+
+contact us-nav bar : lowest in that home page footer.
+
+all details accordingly. 
+
+
+
+
+
+ 
+
+        

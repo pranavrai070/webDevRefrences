@@ -1,0 +1,13 @@
+.big-title{
+    font-size: 10rem;
+    color:chartreuse;
+    font-family: sans-serif;
+}
+
+.margin-50{
+  margin:50px;
+}
+
+.big-title:hover{
+  cursor: crosshair;
+}
